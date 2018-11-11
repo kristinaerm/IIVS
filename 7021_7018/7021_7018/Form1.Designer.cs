@@ -33,7 +33,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxCommand = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.richTextBoxHistory = new System.Windows.Forms.RichTextBox();
@@ -60,6 +60,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Открыть порт";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -69,6 +70,7 @@
             this.button2.TabIndex = 18;
             this.button2.Text = "Записать в порт";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -78,6 +80,7 @@
             this.button3.TabIndex = 20;
             this.button3.Text = "Закрыть порт";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -88,12 +91,12 @@
             this.label3.TabIndex = 26;
             this.label3.Text = "Команда:";
             // 
-            // textBox3
+            // textBoxCommand
             // 
-            this.textBox3.Location = new System.Drawing.Point(118, 137);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 28;
+            this.textBoxCommand.Location = new System.Drawing.Point(118, 137);
+            this.textBoxCommand.Name = "textBoxCommand";
+            this.textBoxCommand.Size = new System.Drawing.Size(100, 20);
+            this.textBoxCommand.TabIndex = 28;
             // 
             // label2
             // 
@@ -191,7 +194,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxCommand);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.richTextBoxHistory);
@@ -210,7 +213,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxCommand;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox richTextBoxHistory;

@@ -1,1 +1,2 @@
 D:\Документы мои\ИВТ СГАУ\ИИВС (з)\Lab\7021_7018\7021_7018\bin\Debug\7021_7018.exe.config
+C:\Users\USER\Documents\GitHub\IIVS\7021_7018\7021_7018\bin\Debug\7021_7018.exe.config
