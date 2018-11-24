@@ -15,6 +15,8 @@ namespace _7021_7018
     {
         private SerialPort comport = new SerialPort();
         private bool GetSpeed = false;
+        private bool getAnswer = false;
+        private bool needAnswer = false;
 
         public Form1()
         {
@@ -46,6 +48,8 @@ namespace _7021_7018
 
             AddHistoryMessage("\n");
             comport.DiscardInBuffer();
+            needAnswer = false;
+            getAnswer = true;
         }
 
         private void AddHistoryMessage(string msg)
@@ -86,6 +90,9 @@ namespace _7021_7018
                 comport.WriteLine(textBoxCommand.Text + (char)0x0D);
                 // выдать сообщение в историю
                 AddHistoryMessage("Записана команда:" + textBoxCommand.Text + "\n");
+                needAnswer = true;
+                getAnswer = false;
+
             }
             catch
             {
@@ -159,6 +166,30 @@ namespace _7021_7018
             catch
             {
                 AddHistoryMessage("Проблемы с закрытием порта. \n");
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //int a = (int)Double.Parse(textBox1.Text) * 100;
+            //string s = Convert.ToString(a, 8);
+        }
+
+        private void comboBoxPort_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxSpeed_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (needAnswer && !getAnswer)
+            {
+                MessageBox.Show("Введена неверная команда, ответ не получен");
             }
         }
     }

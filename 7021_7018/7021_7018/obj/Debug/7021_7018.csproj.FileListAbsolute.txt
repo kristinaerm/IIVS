@@ -1,2 +1,14 @@
 D:\Документы мои\ИВТ СГАУ\ИИВС (з)\Lab\7021_7018\7021_7018\bin\Debug\7021_7018.exe.config
 C:\Users\USER\Documents\GitHub\IIVS\7021_7018\7021_7018\bin\Debug\7021_7018.exe.config
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\bin\Debug\7021_7018.exe.config
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\bin\Debug\7021_7018.exe
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\bin\Debug\7021_7018.pdb
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\7021_7018.csprojAssemblyReference.cache
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\_7021_7018.Enter.resources
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\_7021_7018.Form1.resources
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\_7021_7018.Properties.Resources.resources
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\7021_7018.csproj.GenerateResource.cache
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\7021_7018.csproj.CoreCompileInputs.cache
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\7021_7018.exe
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\7021_7018.pdb
+C:\Users\Кристина\Documents\GitHub\IIVS\7021_7018\7021_7018\obj\Debug\_7021_7018.User.resources

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label15 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -41,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.comboBoxPort = new System.Windows.Forms.ComboBox();
             this.comboBoxSpeed = new System.Windows.Forms.ComboBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label15
@@ -161,6 +163,7 @@
             this.comboBoxPort.Size = new System.Drawing.Size(100, 21);
             this.comboBoxPort.TabIndex = 41;
             this.comboBoxPort.Text = "COM4";
+            this.comboBoxPort.SelectedIndexChanged += new System.EventHandler(this.comboBoxPort_SelectedIndexChanged_1);
             // 
             // comboBoxSpeed
             // 
@@ -179,6 +182,12 @@
             this.comboBoxSpeed.Size = new System.Drawing.Size(100, 21);
             this.comboBoxSpeed.TabIndex = 42;
             this.comboBoxSpeed.Text = "9600";
+            this.comboBoxSpeed.SelectedIndexChanged += new System.EventHandler(this.comboBoxSpeed_SelectedIndexChanged);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -221,6 +230,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBoxPort;
         private System.Windows.Forms.ComboBox comboBoxSpeed;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
